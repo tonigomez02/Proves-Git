@@ -1,5 +1,7 @@
 package com.toni.programming.data;
 
+import java.lang.ref.PhantomReference;
+
 public class Car {
 
     private Integer wheels;
@@ -7,6 +9,15 @@ public class Car {
     private String Color;
     private String model;
     private String name;
+    private Integer CV;
+
+    public Integer getCV() {
+        return CV;
+    }
+
+    public void setCV(Integer CV) {
+        this.CV = CV;
+    }
 
     public Integer getWheels() {
         return wheels;
